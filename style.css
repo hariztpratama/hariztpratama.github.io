@@ -1,0 +1,23 @@
+body {
+  min-height: 1800px;
+}
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+#projects {
+  background-color: #e2edff;
+}
+
+.navbar-brand {
+  font-family: Colonna MT;
+}
+
+.lead {
+  font-family: Impact;
+}
+
+section {
+  padding-top: 5rem;
+}
