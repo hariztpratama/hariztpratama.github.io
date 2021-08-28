@@ -7,6 +7,9 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
@@ -42,7 +45,7 @@
 
     <!--Jumbotron-->
     <section class="jumbotron text-center">
-      <img src="img/good1.jpg" alt="Harizt Eko Pratama" width="200" class="rounded-circle img-thumbnail" />
+      <img src="img/good1.jpg" alt="Harizt Eko Pratama" width="200" class="rounded-circle img-thumbnail"/>
       <h1 class="display-4">Harizt Eko Pratama</h1>
       <p class="lead">Web Developer</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -57,7 +60,7 @@
 
     <!-- About -->
     <section id="about">
-    <div class="container">
+    <div class="container" data-aos="zoom-in-down" data-aos-duration="2000">
     <div class="row text-center mb-3">
     <div class="col">
     <h2>About Me</h2>
@@ -66,13 +69,17 @@
     </div>
     <div class="row justify-content-around fs-5 text-center">
       <div class="col-md-4 mb-3">
+        <div data-aos="fade-right" data-aos-duration="1000">
         <p>
           Ini adalah website Portfolio saya yang bertujuan untuk mencari client dan sebagai bukti dalam mencari keberadaan saya di internet agar dapat dikenal dalam dunia web developer.
         </p>
         </div>
+      </div>
         <div class="col-md-4 mb-3">
+          <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
           <p>Pembuatan website kami bisa sesuai request dari client ataupun dari template kami yang sudah kami sediakan di kolom My Project, jika ingin sesuai request kami bisa sesuaikan dengan budget anda namun jika memakai template dari kami maka anda cukup membayar Rp 150.000,-.</p>
           </div>
+        </div>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2edff" fill-opacity="1" d="M0,96L24,85.3C48,75,96,53,144,53.3C192,53,240,75,288,96C336,117,384,139,432,122.7C480,107,528,53,576,53.3C624,53,672,107,720,133.3C768,160,816,160,864,144C912,128,960,96,1008,112C1056,128,1104,192,1152,186.7C1200,181,1248,107,1296,80C1344,53,1392,75,1416,85.3L1440,96L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z">
 
           </path>
@@ -84,13 +91,15 @@
 
     <!-- Projects -->
     <section id="projects">
-      <div class="container">
+      <div class="container" data-aos="zoom-in-down">
         <div class="row text-center">
           <div class="col">
             <h2>My Project</h2>
             <div class="row justify-content-center">
               <div class="col-md-4 mb-3">
-                <div class="card">
+                <div class="card" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                   <img src="img/projects/template1.PNG" class="card-img-top" alt="Project 1">
                   <div class="card-body">
                     <p class="card-text"></p>Untuk lebih lengkap bisa klik <a href="https://bootstrapmade.com/demo/Arsha/">link</a> ini dan untuk design bisa disesuaikan dengan permintaan client.</p>
@@ -98,7 +107,10 @@
                 </div>
               </div>
               <div class="col-md-4 mb-3">
-                <div class="card">
+                <div class="card" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                data-aos-delay="100">
                   <img src="img/projects/template2.PNG" class="card-img-top" alt="Project 2">
                   <div class="card-body">
                     <p class="card-text"></p>Untuk lebih lengkap bisa klik <a href="https://bootstrapmade.com/demo/iPortfolio/">link</a> ini dan untuk design bisa disesuaikan dengan permintaan client.</p>
@@ -106,7 +118,10 @@
                 </div>
               </div>
               <div class="col-md-4 mb-3">
-                <div class="card">
+                <div class="card" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                data-aos-delay="200">
                   <img src="img/projects/template3.PNG" class="card-img-top" alt="Project 3">
                   <div class="card-body">
                     <p class="card-text"></p>Untuk lebih lengkap bisa klik <a href="https://bootstrapmade.com/demo/Bethany/">link</a> ini dan untuk design bisa disesuaikan dengan permintaan client.</p>
@@ -114,7 +129,10 @@
                 </div>
               </div>
               <div class="col-md-4 mb-3">
-                <div class="card">
+                <div class="card" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                data-aos-delay="300">
                   <img src="img/projects/template4.PNG" class="card-img-top" alt="Project 4">
                   <div class="card-body">
                     <p class="card-text"></p>Untuk lebih lengkap bisa klik <a href="https://bootstrapmade.com/demo/Serenity/">link</a> ini dan untuk design bisa disesuaikan dengan permintaan client.</p>
@@ -122,7 +140,10 @@
                 </div>
               </div>
               <div class="col-md-4 mb-3">
-                <div class="card">
+                <div class="card" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                data-aos-delay="400">
                   <img src="img/projects/template5.PNG" class="card-img-top" alt="Project 5">
                   <div class="card-body">
                     <p class="card-text"></p>Untuk lebih lengkap bisa klik <a href="https://bootstrapmade.com/demo/Groovin/">link</a> ini dan untuk design bisa disesuaikan dengan permintaan client.</p>
@@ -138,6 +159,18 @@
     </svg>
       </section>
     <!-- Akhir Project -->
+
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Gallery</h2>
+          </div>
+      </div>
+    </div>
+    </section>
+    <!-- Akhir Gallery -->
 
     <!-- Contact -->
     <section id="contact">
@@ -188,6 +221,11 @@
     <!-- Akhir Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbyXHxN3vClFG6YeccmkaCCkL8lYHYQzrSsUqUoSkPnOh_YnrBV3OitB7y1Mk-zWPqU9/exec'
