@@ -45,7 +45,7 @@
 
     <!--Jumbotron-->
     <section class="jumbotron text-center">
-      <img src="img/good1.jpg" alt="Harizt Eko Pratama" width="200" class="rounded-circle img-thumbnail"/>
+      <img src="img/cp.JPG" alt="Harizt Eko Pratama" width="300" class="rounded-circle img-thumbnail"/>
       <h1 class="display-4">Harizt Eko Pratama</h1>
       <p class="lead">Web Developer</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -168,6 +168,58 @@
             <h2>Gallery</h2>
           </div>
       </div>
+      <div class="row justify-content-center">
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/gallery/thumbnail/1.jpg" alt="Gambar 1" class="img-fluid gallery-img"/>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/gallery/thumbnail/2.jpg" alt="Gambar 2" class="img-fluid gallery-img"/>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/gallery/thumbnail/3.jpg" alt="Gambar 3" class="img-fluid gallery-img"/>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/gallery/thumbnail/4.jpg" alt="Gambar 4" class="img-fluid gallery-img"/>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/gallery/thumbnail/5.jpg" alt="Gambar 4" class="img-fluid gallery-img"/>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/gallery/thumbnail/6.jpg" alt="Gambar 5" class="img-fluid gallery-img"/>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/gallery/thumbnail/7.jpg" alt="Gambar 6" class="img-fluid gallery-img"/>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/gallery/thumbnail/8.jpg" alt="Gambar 7" class="img-fluid gallery-img"/>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/gallery/thumbnail/9.jpg" alt="Gambar 8" class="img-fluid gallery-img"/>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/gallery/thumbnail/10.jpg" alt="Gambar 9" class="img-fluid gallery-img"/>
+          </a>
+        </div>
+      </div>
     </div>
     </section>
     <!-- Akhir Gallery -->
@@ -224,6 +276,13 @@
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
+      const galleryImage = document.querySelectorAll('.gallery-img');
+      galleryImage.forEach((img, i) => {
+         img.dataset.aos = 'fade-down';
+         img.dataset.aosDelay = i * 100;
+         img.dataset.aosDuration = 1000; 
+        }) 
+     
       AOS.init();
     </script>
 
