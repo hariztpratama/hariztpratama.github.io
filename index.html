@@ -289,6 +289,11 @@
       AOS.init();
     </script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script>
+      gsap.from('.jumbotron img', {duration: 1, y: -100, opacity: 0 })
+    </script>
+
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbyXHxN3vClFG6YeccmkaCCkL8lYHYQzrSsUqUoSkPnOh_YnrBV3OitB7y1Mk-zWPqU9/exec'
       const form = document.forms['wpu-contact-form'];
