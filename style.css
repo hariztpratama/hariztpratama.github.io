@@ -11,11 +11,15 @@ body {
 }
 
 .navbar-brand {
-  font-family: Colonna MT;
+  font-family: Copperplate Gothic Bold;
 }
-
+.display-4 {
+  font-family: Snap ITC;
+  font-size: 3rem;
+}
 .lead {
-  font-family: Impact;
+  font-family: Imprint MT Shadow;
+  font-size: 2rem;
 }
 
 section {
@@ -28,4 +32,7 @@ section {
 
 #gallery .row > * {
   padding: 0;
+}
+.gmaps {
+  width: 100%;
 }
